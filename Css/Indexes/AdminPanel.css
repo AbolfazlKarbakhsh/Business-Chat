@@ -1,0 +1,12 @@
+@import url("/Css/Indexes/Fonts.css");
+@import url("/Css/Indexes/Panels.css");
+@import url("/Css/Indexes/DefualtStyle.css");
+@import url("/Css/Indexes/Animations.css");
+
+
+@media  screen and (max-width:800px) {
+    .mainContent{
+        /* height: 80% !important; */
+    }
+}
+

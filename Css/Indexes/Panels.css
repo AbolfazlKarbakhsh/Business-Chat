@@ -1,0 +1,164 @@
+body.MainPanelAdmin{
+    background: #0F1322;
+}
+.GigaMenuFother {
+    position: fixed;
+    z-index: 998!important;
+    width: 0;
+    height: 100% !important;
+    background: rgba(0, 0, 0, 0.378);
+}
+
+.PanelCenter{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 90% !important;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.CenterBox{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+
+
+.RightGigiMenu , .panelMobilTopNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row !important;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.panelMobilTopNav{
+    height: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius:10px 10px 0 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+.RightGigiMenu{
+    height: 98%;
+    overflow-y: auto;
+    overflow-x:hidden ;
+    flex-direction: column !important;
+
+}
+
+@media screen and (max-width:768px) {
+
+    body{
+        padding: 20px!important;
+
+    }
+    .PanelCenter{
+    height: 100% !important;
+
+        
+    }
+    .CenterBox{
+        padding: 0 !important;
+        margin: 0!important;
+        display: block;
+        height: 90%;
+
+
+    }
+    .gigamenu{
+        background: #ffffff;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 999 !important;
+        width: 0;
+        padding: 0 !important ;
+        transition: 0.5s;
+    }
+
+    .mainContent{
+        background: #F3F1EF !important;
+        border-radius: 0px !important ;
+        height: 100% !important;
+        border-radius: 0 0 10px 10px !important;
+    }
+
+    @media screen and (max-height:650px) {
+        .CenterBox{
+            height: 80%;
+        }
+    
+    }
+    @media screen and (max-height:500px) {
+        .CenterBox{
+            height: 75%;
+        }
+    
+    }
+    @media screen and (max-height:400px) {
+        .CenterBox{
+            height: 68%;
+        }
+    
+    }
+    @media screen and (max-height:309px) {
+        .CenterBox{
+            height: 60%;
+        }
+    
+    }
+}
+
+
+.RightGigiMenu::-webkit-scrollbar , .mainContent::-webkit-scrollbar  {
+    background-color: transparent !important;
+    width: 16px;
+    border: 4px solid transparent !important;
+}
+div .span-head{
+    color: #4291D9;
+}
+
+.mainContent{
+    background: #F3F1EF;
+    border-radius: 20px ;
+    height: 100% !important;
+}
+
+
+
+.mainContent::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 5px solid #F3F1EF;
+    width: 2px !important;
+}
+.AvatarFix{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+
+.btnRightNav{
+    width: 95% !important;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
